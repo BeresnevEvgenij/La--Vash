@@ -1,0 +1,49 @@
+body{
+
+  font-size: 1.4rem;
+  font-family: "PT Sans",Arial,sans-serif;
+  max-width: 1800px;
+  display: flex;
+  margin: 0 auto;
+}
+a{
+  color: #4169e1;
+  text-decoration: none;
+  border: none;
+}
+li {
+  list-style-type: none;
+}
+.header{
+  height: 200px;
+  width: 1200px;
+
+
+  text-align: center;
+  margin: 0 auto;
+  background-color: #9cf0e7;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.5);
+}
+.conteiner{
+ display: flex;
+ width: 1200px;
+}
+
+/* ----nav---- */
+.nav{
+  display: flex;
+}
+.link{
+  width: 33.3%;
+}
+.subnav{
+  display: flex;
+}
+.name{
+  margin: 0 2px;
+
+
+  color: #4169e1;
+  background-color: #9cf0e7;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.5);
+  }
