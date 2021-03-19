@@ -1,8 +1,7 @@
 body{
-
   font-size: 1.4rem;
   font-family: "PT Sans",Arial,sans-serif;
-  max-width: 1800px;
+  width: 1200px;
   margin: 0 auto;
 }
 a{
@@ -13,11 +12,19 @@ a{
   text-align: center;
   justify-content: center;
   text-transform: uppercase;
-
-
 }
 li {
   list-style-type: none;
+}
+h1{
+   text-align: center;
+}
+h2{
+   text-align: center;
+}
+p{
+  padding: 0;
+  margin: 0;
 }
 
 /* ----header---- */
@@ -32,29 +39,32 @@ li {
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.5);
 }
 .conteiner{
- display: flex;
  width: 1200px;
 }
 
 /* ----nav---- */
 .nav{
   display: flex;
+
 }
 .link{
   width: 33.333333%;
+
   }
 .subnav{
   display: flex;
   border-radius: 5px;
   background-color: #9cf0e7;
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.5);
+  z-index: 1000;
+
 }
 .name{
-  height:  25px;
+  height:  30px;
   font-weight: 600;
   line-height: 20px;
   font-size: 15px;
-    border-radius: 5px;
+  border-radius: 5px;
   text-transform: uppercase;
   color: #004b93;
   background-color: #9cf0e7;
@@ -66,9 +76,11 @@ li {
   padding: 5px;
   text-align: left;
 
+
 }
 .link:hover .subnav_ul{
   display: block;
+
 }
 .img{
   margin: 5px;
@@ -78,9 +90,40 @@ li {
 
 /* ----content---- */
 .content{
-  top: 100px;
+  padding-top: 50px;
   width: 1200px;
-
-  position: relative;
+  border-radius: 50px 50px 0px 0px;
   margin: 0 auto;
+}
+.menu{
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  background-color: #004b93;
+  border-radius:500px 500px 0px 0px;
+}
+.menu-2{
+  font-size: 20px;
+  height: 50px;
+  color: white;
+  width: 100%;
+  background-color: #004b93;
+  border-radius: 0px 0px 500px 500px;
+}
+.Shaverma{
+ display: flex;
+}
+.Shaverma_blok{
+  padding: 0 10px;
+  width: 20.333333%;
+}
+.foto{
+  border-radius: 5px;
+  
+  width: 220px;
+  height: 207px;
+}
+.Shaverma_name{
+  padding-top: 0px;
+  font-size: 15px;
 }
